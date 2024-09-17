@@ -1,0 +1,174 @@
+.editButton {
+  background-color: gray;
+  color: white; /* 文字色 */
+  border-radius: 5px; /* 角の丸み */
+  text-transform: none; /* テキスト変換を無効にする */
+  font-size: 12px; /* フォントサイズ */
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.editButton:hover {
+  background-color: rgb(103, 101, 101);
+}
+
+.icon {
+  margin-right: 8px; /* 右側に8pxの隙間を作る */
+}
+
+.status {
+  cursor: pointer;
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  display: inline-block; /* インラインブロック要素にする */
+  border-radius: 10px; /*テーブルの角を丸くする*/
+}
+
+.status-un {
+  background-color: #d37415; /* 「未」の背景色（赤） */
+}
+
+.status-com {
+  background-color: rgb(183, 179, 57); /* 「完」の背景色（緑） */
+}
+
+.orderManagementPage {
+  display: flex;
+  flex-direction: column; /* 縦方向に配置 */
+  justify-content: flex-start; /* 上部に固定 */
+  padding-top: 10px; /* 上部に間隔を追加 */
+  padding-bottom: 50px; /* 上部に間隔を追加 */
+  min-height: 100vh;
+  background-color: rgb(243, 241, 178);
+}
+
+.header {
+  padding-left: 30px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row; /* 横方向に配置 */
+  justify-content: flex-start; /* 左寄せ */
+  align-items: flex-start; /* 上寄せ */
+  padding: 20px 50px;
+}
+
+.searchArea {
+  background-color: #f2f2f2;
+  height: 60vh;
+  width: 100px;
+  padding: 0px 30px;
+  margin-right: 40px; /* テーブルとの間隔を調整 */
+  border: 1px solid rgb(196, 193, 193);
+  border-radius: 20px;
+  flex-direction: row; /* 横方向に配置 */
+  justify-content: flex-start; /* 左寄せ */
+}
+
+.conditionContent {
+  border-bottom: 1px solid gray; /* 線の太さと色を指定 */
+  display: inline-block; /* テキストの長さに合わせて線を引く */
+  padding-bottom: 15px; /* テキストと線の間にスペースを追加 */
+}
+
+.searchCondition {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.tableContainer {
+  flex-grow: 1; /* テーブルコンテナが残りのスペースを占有する */
+}
+
+.table {
+  background-color: #f2f2f2;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  /* table-layout: fixed; */
+  border-radius: 20px; /*テーブルの角を丸くする*/
+  overflow: hidden; /*角の丸みを正しく表示するために追加*/
+  border: 1px solid rgb(196, 193, 193);
+  margin-right: 50px;
+}
+
+.table th,
+.table td {
+  border-top: 1px solid rgb(196, 193, 193); /* 横線 */
+  border-bottom: 1px solid rgb(196, 193, 193); /* 横線 */
+  padding: 20px 15px;
+  text-align: left;
+  background-clip: padding-box;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table td {
+  border-top: 1px solid rgb(196, 193, 193); /* 横線 */
+  border-bottom: 1px solid rgb(196, 193, 193); /* 横線 */
+}
+
+.table tr:hover {
+  background-color: rgb(243, 241, 178);
+}
+
+.table td div {
+  margin-bottom: 4px; /* 情報間のスペースを確保 */
+}
+
+/* 角を丸くする設定 */
+.table th:first-child {
+  border-top-left-radius: 20px;
+}
+
+.table th:last-child {
+  border-top-right-radius: 20px;
+}
+
+.table tr:last-child td:first-child {
+  border-bottom-left-radius: 20px;
+}
+
+.table tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
+}
+
+/* 各列の幅を指定 */
+.table th:nth-child(1),
+.table td:nth-child(1) {
+  width: 3%; /* 例：1列目の幅を全体の30%に設定 */
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+  width: 57%; /* 例：2列目の幅を全体の30%に設定 */
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+  width: 12%; /* 例：3列目の幅を全体の30%に設定 */
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+  width: 8%; /* 例：4列目の幅を全体の30%に設定 */
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5) {
+  width: 15%; /* 例：5列目の幅を全体の30%に設定 */
+}
+
+.table th:nth-child(6),
+.table td:nth-child(6) {
+  width: 5%; /* 例：6列目の幅を全体の30%に設定 */
+}

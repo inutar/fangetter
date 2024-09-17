@@ -1,0 +1,51 @@
+Date : 2024-06-07 17:20:15
+Directory : c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase
+Total : 18 files,  20376 codes, 121 comments, 100 blanks, all 20597 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          3 |     19,884 |          0 |          3 |     19,887 |
+| JavaScript |          9 |        322 |         98 |         44 |        464 |
+| CSS        |          4 |        112 |          0 |         19 |        131 |
+| Markdown   |          1 |         38 |          0 |         33 |         71 |
+| HTML       |          1 |         20 |         23 |          1 |         44 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                   | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                      |         18 |     20,376 |        121 |        100 |     20,597 |
+| . (Files)                                                                                              |          3 |     19,897 |          0 |         35 |     19,932 |
+| public                                                                                                 |          2 |         45 |         23 |          2 |         70 |
+| src                                                                                                    |         13 |        434 |         98 |         63 |        595 |
+| src (Files)                                                                                            |          5 |        103 |          0 |         18 |        121 |
+| src\components                                                                                         |          8 |        331 |         98 |         45 |        474 |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                               | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\README.md                            | Markdown   |         38 |          0 |         33 |         71 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\package-lock.json                    | JSON       |     19,815 |          0 |          1 |     19,816 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\package.json                         | JSON       |         44 |          0 |          1 |         45 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\public\index.html                    | HTML       |         20 |         23 |          1 |         44 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\public\manifest.json                 | JSON       |         25 |          0 |          1 |         26 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\App.css                          | CSS        |         33 |          0 |          6 |         39 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\App.js                           | JavaScript |         29 |          0 |          4 |         33 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\components\CreateMemo.css        | CSS        |         48 |          0 |          7 |         55 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\components\CreateMemo.js         | JavaScript |        137 |          8 |          4 |        149 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\components\Home.js               | JavaScript |         33 |          2 |          7 |         42 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\components\Login.js              | JavaScript |         29 |         87 |         13 |        129 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\components\Logout.js             | JavaScript |         21 |          1 |          4 |         26 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\components\Navbar.css            | CSS        |         19 |          0 |          4 |         23 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\components\Navbar.js             | JavaScript |         19 |          0 |          3 |         22 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\components\VariantButtonGroup.js | JavaScript |         25 |          0 |          3 |         28 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\firebase.js                      | JavaScript |         19 |          0 |          4 |         23 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\index.css                        | CSS        |         12 |          0 |          2 |         14 |
+| c:\Users\Chu8s\dev\reactProject\fangetter-with-react-and-firebase\src\index.js                         | JavaScript |         10 |          0 |          2 |         12 |
+| Total                                                                                                  |            |     20,376 |        121 |        100 |     20,597 |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

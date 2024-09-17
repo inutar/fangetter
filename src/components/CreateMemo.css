@@ -1,0 +1,92 @@
+.createMemoPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* 縦方向に配置 */
+  justify-content: flex-start; /* 上部に固定 */
+  padding-top: 30px; /* 上部に間隔を追加 */
+  padding-bottom: 30px; /* 下部に間隔を追加 */
+  height: 185vh;
+  background-color: rgb(243, 241, 178);
+}
+
+.postContainer {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 1000px;
+  width: 450px;
+  gap: 10px;
+  padding: 20px 40px;
+  box-shadow: 8px 12px 26px -10px #777777;
+}
+
+.iconUser {
+  margin-left: 8px; /* 右側に8pxの隙間を作る */
+}
+
+.infoTitle {
+  border-bottom: 1.5px solid gray; /* 線の太さと色を指定 */
+  display: inline-block; /* テキストの長さに合わせて線を引く */
+  padding-bottom: 4px; /* テキストと線の間にスペースを追加 */
+  margin: 20px 0px;
+  font-weight: bold; /* テキストを太字にする */
+  font-size: 1.1em; /* テキストを少し大きくする */
+}
+
+.inputPost {
+  color: rgb(77, 76, 76);
+}
+
+.postContainer input {
+  width: 95%;
+  height: 40px;
+  outline: none;
+  padding: 0px 4px;
+  border: 1px solid gray;
+  margin: 7px 7px;
+  border-radius: 4px;
+}
+
+.postContainer input:focus {
+  outline: none;
+  border-color: #a9a9a9; /* フォーカス時の枠の色を調整 */
+}
+
+.postContainer textarea {
+  width: 94%;
+  height: 90px;
+  outline: none;
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 7px 7px;
+}
+
+.inputDeadline {
+  width: 95%;
+  height: 40px;
+  outline: none;
+  padding: 0px 4px;
+  margin: 7px 3px;
+  border-radius: 4px;
+}
+
+.postButton {
+  padding: 10px 0;
+  background-color: rgb(145, 155, 10);
+  border: none;
+  box-shadow: 8px 12px 26px -10px #777777;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin: 20px 20px;
+  width: 90%;
+}
+
+.postButton:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+}
